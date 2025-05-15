@@ -22,3 +22,64 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+logs/
+/out/
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### Projects ###
+target
+build-repo/
+bootstrap-*.yml
+classes/production/
+nohup.out
+/tools/nohup.out
+git.properties
+#*.properties
+*.env.json
+*.versionsBackup
+
+
+### OS ###
+.DS_Store
+
+### gitlab-ci ###
+/artifacts.tar.gz
+
+.mvn/timing.properties
+# /.mvn/profiler-report/
+# /.mvn/wagonRepository/
+.mvn/timing.properties
+.mvn/*Report/
+.mvn/*Repository/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# easyapi
+/.easyapi/
+
+
+
