@@ -1,6 +1,6 @@
 package com.huhh.code.optimized.chain.handler;
 
-import com.huhh.code.optimized.chain.pay.PayConstant.PayType;
+import com.huhh.code.optimized.pay.PayConstant.PayType;
 
 public class WeChatPayHandler extends PayTypeHandler {
 

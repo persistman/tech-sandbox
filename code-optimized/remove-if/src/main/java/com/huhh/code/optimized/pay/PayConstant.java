@@ -1,4 +1,4 @@
-package com.huhh.code.optimized.chain.pay;
+package com.huhh.code.optimized.pay;
 
 public interface PayConstant {
 

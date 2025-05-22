@@ -3,8 +3,8 @@ package com.huhh.code.optimized.chain;
 import com.huhh.code.optimized.chain.handler.AliPayHandler;
 import com.huhh.code.optimized.chain.handler.PayTypeHandler;
 import com.huhh.code.optimized.chain.handler.WeChatPayHandler;
-import com.huhh.code.optimized.chain.pay.PayContext;
-import com.huhh.code.optimized.chain.pay.PayConstant.PayType;
+import com.huhh.code.optimized.pay.PayContext;
+import com.huhh.code.optimized.pay.PayConstant.PayType;
 
 public class InvokeClient {
 

@@ -1,7 +1,7 @@
 package com.huhh.code.optimized;
 
-import com.huhh.code.optimized.chain.pay.PayContext;
-import com.huhh.code.optimized.chain.pay.PayConstant.PayType;
+import com.huhh.code.optimized.pay.PayContext;
+import com.huhh.code.optimized.pay.PayConstant.PayType;
 
 /**
  *  The class is default implement. there were so many if-else branches to judge

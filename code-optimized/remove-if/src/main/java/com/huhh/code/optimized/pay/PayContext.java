@@ -1,6 +1,6 @@
-package com.huhh.code.optimized.chain.pay;
+package com.huhh.code.optimized.pay;
 
-import com.huhh.code.optimized.chain.pay.PayConstant.PayType;
+import com.huhh.code.optimized.pay.PayConstant.PayType;
 
 public class PayContext {
 
