@@ -21,7 +21,8 @@ public class PayActionFactory {
 
     
     public static PayActionFunction getPayAction(PayConstant.PayType payType) {
-        return Optional.ofNullable(PAY_MAP.get(payType)).orElseThrow();
+        return Optional.ofNullable(PAY_MAP.get(payType))
+            .orElseThrow(() -> new UnsupportedOperationException("Pay type not supported: " + payType));
     }
     
 

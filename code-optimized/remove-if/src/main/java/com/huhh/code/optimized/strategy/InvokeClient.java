@@ -4,7 +4,9 @@ import com.huhh.code.optimized.pay.PayConstant;
 import com.huhh.code.optimized.pay.PayContext;
 
 /**
- *  
+ *  the client is where user invoke the pay action by pay type
+ * 
+ *  这是在实际应用中，通过支付类型，来执行相应的功能的地方。
  */
 public class InvokeClient {
 
