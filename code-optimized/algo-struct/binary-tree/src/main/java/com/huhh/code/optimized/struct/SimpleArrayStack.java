@@ -3,7 +3,7 @@ package com.huhh.code.optimized.struct;
 import com.huhh.code.optimized.entity.SimpleNode;
 
 // 栈为最为简单的数据结构之一， 数据会后进先出。
-public class SimpleStack {
+public class SimpleArrayStack {
 
     private static final int CAPACITTY = 10;
 
@@ -13,12 +13,12 @@ public class SimpleStack {
 
     private SimpleNode<Integer>[] datas ;
 
-    public SimpleStack(int capacity) {
+    public SimpleArrayStack(int capacity) {
          this.capacity = capacity < 1 ? CAPACITTY : capacity;
          this.datas = new SimpleNode[this.capacity];
     }
 
-    public SimpleStack() {
+    public SimpleArrayStack() {
         this(CAPACITTY);
     }
 
