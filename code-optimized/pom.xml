@@ -12,7 +12,8 @@
     <code-optimized.version>1.0.0-SNAPSHOT</code-optimized.version>
   </properties>
   <modules>
-    <module>remove-if</module> 
+    <module>remove-if</module>
+    <module>design-pattern</module> 
   </modules>
   <url>http://maven.apache.org</url>
   <dependencyManagement>
