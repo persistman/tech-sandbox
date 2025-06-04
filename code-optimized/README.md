@@ -1,6 +1,8 @@
 ### 代码优化
 #### 子项目列表
 ##### remove-if
+移除代码中if-else结构
+推荐：如果if-else 的嵌套超过3层，使用以下方式消除if-else。
 ###### 通用枚举及常量
 代码路径 -> com.huhh.code.optimized.pay
 
@@ -13,5 +15,14 @@
 代码路径： com.huhh.code.optimized.strategy
 ###### 枚举实现
 代码路径： com.huhh.code.optimized.enums
+
+
+##### algo-struct
+算法与数据结构
+
+
+
+
+
 
 
