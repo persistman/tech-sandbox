@@ -19,28 +19,34 @@
 
 
 ##### design-pattern
-23 种设计模式
+22 种设计模式
 ###### 项目结构
-> |---- created  
+> |---- created(5)  
 > |----|---- factory  
 > |----|----|---- abstract factory  
 > |----|----|---- method factory  
 > |----|---- builder  
 > |----|---- prototype  
 > |----|---- singleton  
-> |----|---- builder  
-> |---- behavior  
-|----|---- chain  
-|----|---- strategy  
-|----|---- state  
-|----|---- command  
-|----|---- iterator  
-|----|----  
-|----|----  
-|----|----  
-|----|----  
-|---- struct  
-
+> |---- behavior(10)  
+> |----|---- chain  
+> |----|---- strategy  
+> |----|---- state  
+> |----|---- command  
+> |----|---- iterator  
+> |----|---- template method  
+> |----|---- memento  
+> |----|---- visitor   
+> |----|---- observer   
+> |----|---- mediator  
+|---- struct(7)  
+> |----|---- adapter  
+> |----|---- bridge   
+> |----|---- composite  
+> |----|---- decorator  
+> |----|---- facade   
+> |----|---- flyweight  
+> |----|---- proxy
 
 
 
