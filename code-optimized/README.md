@@ -23,8 +23,8 @@
 ###### 项目结构
 > |---- created(5)  
 > |----|---- factory  
-> |----|----|---- abstract factory  
-> |----|----|---- method factory  
+> |----|----|---- abstract factory [&#10004;]    
+> |----|----|---- method factory   [&#10004;]    
 > |----|---- builder  
 > |----|---- prototype  
 > |----|---- singleton  
