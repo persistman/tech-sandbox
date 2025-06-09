@@ -19,7 +19,7 @@
 
 
 ##### design-pattern
-22 种设计模式
+23 种设计模式
 ###### 项目结构
 > |---- created(5)  
 > |----|---- factory  
@@ -28,7 +28,7 @@
 > |----|---- builder  
 > |----|---- prototype  
 > |----|---- singleton  
-> |---- behavior(10)  
+> |---- behavior(11)  
 > |----|---- chain  
 > |----|---- strategy  
 > |----|---- state  
@@ -39,6 +39,7 @@
 > |----|---- visitor   
 > |----|---- observer   
 > |----|---- mediator  
+> |----|---- interpreter   
 |---- struct(7)  
 > |----|---- adapter  
 > |----|---- bridge   
