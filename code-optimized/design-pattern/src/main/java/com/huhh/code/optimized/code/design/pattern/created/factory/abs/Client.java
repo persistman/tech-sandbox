@@ -4,6 +4,11 @@ import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
+/**
+ *  访问客户端
+ * 这里的通过配置的方式读取道使用的语言，然后根据语言来创建对应的工厂类
+ * 
+ */
 public class Client {
 
     public static void main(String[] args) throws Exception {
