@@ -26,7 +26,7 @@
 > |----|----|---- abstract factory [&#10004;]    
 > |----|----|---- method factory   [&#10004;]    
 > |----|---- builder  [&#10004;]      
-> |----|---- prototype  
+> |----|---- prototype [&#10004;]       
 > |----|---- singleton [&#10004;]        
 > |---- behavior(11)  
 > |----|---- chain  
