@@ -10,6 +10,7 @@
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
     <code-optimized.version>1.0.0-SNAPSHOT</code-optimized.version>
+    <lombok.version>1.18.38</lombok.version>
   </properties>
   <modules>
     <module>remove-if</module>
@@ -29,6 +30,12 @@
         <artifactId>remove-if</artifactId>
         <groupId>com.huhh.code.optimized.code.removeif</groupId>
         <version>${code-optimized.version}</version>
+      </dependency>
+
+      <dependency>
+          <groupId>org.projectlombok</groupId>
+          <artifactId>lombok</artifactId>
+          <version>${lombok.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>

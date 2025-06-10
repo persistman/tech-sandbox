@@ -13,5 +13,13 @@
     <artifactId>design-pattern</artifactId>
     <version>${code-optimized.version}</version>
 
+    <dependencies>
+        <dependency>
+            <artifactId>lombok</artifactId>
+            <groupId>org.projectlombok</groupId>
+        </dependency>
+    </dependencies>
+    
+
 
 </project>
