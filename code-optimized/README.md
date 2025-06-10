@@ -27,7 +27,7 @@
 > |----|----|---- method factory   [&#10004;]    
 > |----|---- builder  
 > |----|---- prototype  
-> |----|---- singleton  
+> |----|---- singleton [&#10004;]        
 > |---- behavior(11)  
 > |----|---- chain  
 > |----|---- strategy  
