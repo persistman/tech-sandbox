@@ -7,7 +7,6 @@ public class HtmlTextBox extends TextBox {
 
     @Override
     public void input() {
-        // TODO Auto-generated method stub
         System.out.println("<input type='text' placehodler='pls input name...'>");
     }
 

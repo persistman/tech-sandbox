@@ -8,7 +8,6 @@ public class CorrectBProductFactory implements Factory {
 
     @Override
     public Product create() {
-        // TODO Auto-generated method stub
         return new CorrectBProduct();
     }
 

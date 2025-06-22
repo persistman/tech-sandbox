@@ -26,7 +26,6 @@ public class SuvCarBuilder implements CarBuilder {
 
     @Override
     public CarBuilder wheel(Wheel wheel, int size) {
-       
         List<Wheel>  wheels = new ArrayList<>(size);
         wheels.add(wheel);
         this.car.setWheels(wheels);
@@ -35,7 +34,6 @@ public class SuvCarBuilder implements CarBuilder {
 
     @Override
     public CarBuilder seat(Seat seat, int size) {
-        // TODO Auto-generated method stub
         List<Seat> seats = new ArrayList<>(size);
         seats.add(seat);
         return this;
@@ -43,21 +41,18 @@ public class SuvCarBuilder implements CarBuilder {
 
     @Override
     public CarBuilder engine(Engine engine) {
-        // TODO Auto-generated method stub
         this.car.setEngine(engine);
         return this;
     }
 
     @Override
     public CarBuilder glass(Glass glass) {
-        // TODO Auto-generated method stub
         this.car.setGlass(glass);
        return this;
     }
 
     @Override
     public CarBuilder controlCompiter(ControlComputer computer) {
-        // TODO Auto-generated method stub
         this.car.setComputer(computer);
         return this;
     }

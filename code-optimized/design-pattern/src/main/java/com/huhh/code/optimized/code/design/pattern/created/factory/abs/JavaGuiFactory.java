@@ -7,13 +7,11 @@ public class JavaGuiFactory extends GuiFactory {
 
     @Override
     public Button drawButton() {
-        // TODO Auto-generated method stub
         return new JavaButton();
     }
 
     @Override
     public TextBox drawTextBox() {
-        // TODO Auto-generated method stub
         return new JavaTextBox();
     }
 

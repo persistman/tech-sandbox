@@ -7,7 +7,6 @@ public class JavaTextBox extends TextBox {
 
     @Override
     public void input() {
-        // TODO Auto-generated method stub
         System.out.println("new java.awt.TextField()");
     }
 

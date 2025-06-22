@@ -34,7 +34,6 @@ public class MvpCarBuilder implements CarBuilder {
 
     @Override
     public CarBuilder seat(Seat seat, int size) {
-        // TODO Auto-generated method stub
         List<Seat> seats = new ArrayList<>(size);
         seats.add(seat);
         return this;
@@ -49,14 +48,12 @@ public class MvpCarBuilder implements CarBuilder {
 
     @Override
     public CarBuilder glass(Glass glass) {
-        // TODO Auto-generated method stub
         this.car.setGlass(glass);
        return this;
     }
 
     @Override
     public CarBuilder controlCompiter(ControlComputer computer) {
-        // TODO Auto-generated method stub
         this.car.setComputer(computer);
         return this;
     }

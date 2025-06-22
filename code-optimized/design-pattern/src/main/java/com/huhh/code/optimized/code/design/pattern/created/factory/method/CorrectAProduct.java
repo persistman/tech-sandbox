@@ -7,7 +7,6 @@ public class CorrectAProduct extends Product {
 
     @Override
     public void dispaly() {
-        // TODO Auto-generated method stub
         System.out.println("Display product: CorrectA");
     }
 

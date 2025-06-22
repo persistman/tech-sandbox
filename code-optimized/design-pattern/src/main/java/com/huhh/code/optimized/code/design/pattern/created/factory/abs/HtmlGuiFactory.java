@@ -7,13 +7,11 @@ public class HtmlGuiFactory extends GuiFactory {
 
     @Override
     public Button drawButton() {
-        // TODO Auto-generated method stub
         return new HtmlButton();
     }
 
     @Override
     public TextBox drawTextBox() {
-        // TODO Auto-generated method stub
         return new HtmlTextBox();
     }
 
