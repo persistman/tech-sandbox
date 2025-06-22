@@ -1,13 +1,16 @@
 package com.huhh.code.optimized.code.design.pattern.created.prototype;
 
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 /**
  *  实体类，在使用的时候克隆
  */
-@Data
+
 public class User implements Cloneable {
 
+    @Getter
+    @Setter
     private String name = "zhangsan";
 
 
